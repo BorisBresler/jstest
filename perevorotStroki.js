@@ -5,3 +5,5 @@ const perevorotStroki = str => {
   }
   return result;
 };
+let str = prompt("vvedite stroku kotoruy xotite perevenut", "");
+document.write(perevorotStroki(str));
